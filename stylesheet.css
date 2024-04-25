@@ -1,11 +1,11 @@
 body {
+    width: 80%;   /*sets the whole page to 80% of window*/
     margin: 0 auto;
     padding: 0;
     align-items: center;
    }
 
 .container {
-    width: 85%;
     /*height: 900px; */
     margin: 0 auto;
     /*border: 2px solid black; */
@@ -24,18 +24,18 @@ body {
 .logo1 {
     font-size: 26px;
     font-family: cursive;
-    font-weight: bold;
+    font-weight: 950;
     color: black;    
 }
 
 nav {
     display:flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: baseline;
+    justify-content:space-between;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 2px solid black;
+    border: none;
 }
 
 nav ul li {
@@ -46,7 +46,6 @@ nav ul li {
 }
 
 nav ul li a {
-    color: blue;
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -104,11 +103,32 @@ button:hover {
     
 }
 
+.container2 {        /*works perfectly! */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
 
+.info {
+    width: 400px;
+    height: 130px;
+    text-align: center;
+    background-color:lightgray;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    font-weight: 700;
+}
 
+H3 {
+    font-family: calibri;
+    font-weight: 910;
+}
 
-
-
-
-
+P {
+    font-family: calibri;
+    font-weight: 700;;
+}
 
