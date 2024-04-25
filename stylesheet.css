@@ -1,26 +1,31 @@
-.container {
-    width: 95%;
-    height: 700px;
+body {
     margin: 0 auto;
-    border: 2px solid black;
-    display:flex;   /* https://www.youtube.com/watch?v=phWxA89Dy94 */
+    padding: 0;
+    align-items: center;
+   }
+
+.container {
+    width: 85%;
+    /*height: 900px; */
+    margin: 0 auto;
+    /*border: 2px solid black; */
+    display: flex;   /* https://www.youtube.com/watch?v=phWxA89Dy94 */
     flex-direction: column;
     /*align-items: center;*/
-    justify-content: space-evenly;
-    /*gap: 1em;*/
-}
-
-.item-1, .item-2, .item-3 {
-    height: 150px;
-    background-color: lightblue;
-    padding: 1em;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-}
+    /*justify-content: space-between; */
+    gap: 1em;
+    /*flex-wrap: wrap; */
+}   
 
 .navigation {
-    height: 300px;
+    height: 100px;
+ }
+
+.logo1 {
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+    color: black;    
 }
 
 nav {
@@ -28,22 +33,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.logo {
-    color:blueviolet;
-    font-size: 28px;
-}
-
-span {
-    color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
+    font-weight: bold;
     padding: 15px;
 }
 
@@ -51,6 +49,9 @@ nav ul li a {
     color: blue;
     text-decoration: none;
     font-weight: bold;
+    color: black;
+    font-family: calibri;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -64,9 +65,10 @@ button {
     background: red;
     padding: 12px 30px;
     border-radius: 30px;
-    color: gray;
+    color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-family: caibri;
+    font-size: 20px;
     transition: 0.5s;
 
 }
@@ -75,3 +77,38 @@ button:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
+
+.team_photo {
+    height: 800px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#the_team {
+    display: flex;
+    margin: 0 auto; /*centres the image in the div*/
+    height: 800px;
+    width: 100%;
+
+}
+
+.description {
+    font-family: calibri;
+    color:dimgray;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+#logo2 {
+    
+}
+
+
+
+
+
+
+
+
+
