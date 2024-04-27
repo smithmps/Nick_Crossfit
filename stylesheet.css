@@ -92,6 +92,8 @@ button:hover {
 }
 
 .description {
+    /*display: flex;
+    flex-wrap: nowrap; */ 
     font-family: calibri;
     color:dimgray;
     font-weight: bold;
@@ -107,6 +109,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 30px;
     padding-bottom: 50px;
 }
