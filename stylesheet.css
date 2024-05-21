@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 button {
     border: none;
-    background: red;
+    background: gray;
     padding: 12px 30px;
     border-radius: 30px;
     color: white;
@@ -69,7 +69,6 @@ button {
     font-family: caibri;
     font-size: 20px;
     transition: 0.5s;
-
 }
 
 button:hover {
@@ -110,7 +109,7 @@ button:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .info {
@@ -134,12 +133,21 @@ P {
     font-weight: 700;;
 }
 
+footer {
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+    font-family: calibri;
+    padding-bottom: 5px;
+    border-top: 1px solid black;
+}
 
 /*timetable page*/
 .timetable {
     display: flex;
     justify-content: center;
-    padding-top: 30px; 
+    padding-top: 30px;
+    padding-bottom: 50px; 
 }
 
 #schedule {
@@ -164,6 +172,7 @@ P {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #photos {
