@@ -14,18 +14,18 @@ body {
     /*align-items: center;*/
     /*justify-content: space-between; */
     gap: 1em;
-    /*flex-wrap: wrap; */
+    /*flex-wrap: wrap; */;
 }   
 
 .navigation {
-    height: 100px;
+    height: 100px;;
  }
 
 .logo1 {
     font-size: 26px;
-    font-family: cursive;
+    font-family: cursive; /*weird font sent by Nick */
     font-weight: 950;
-    color: black;    
+    color: whitesmoke;    
 }
 
 nav {
@@ -36,6 +36,7 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    background-color:rgb(20, 20, 65);
 }
 
 nav ul li {
@@ -48,13 +49,13 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
     font-family: calibri;
     font-size: 20px;
 }
 
 nav ul li a:hover {
-    color: green;
+    color: white;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -79,7 +80,9 @@ button:hover {
 .team_photo {
     display: flex;
     justify-content: center;
-    padding-bottom: 45px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: none;
    }
 
 #the_team {
@@ -93,10 +96,11 @@ button:hover {
     /*display: flex;
     flex-wrap: nowrap; */ 
     font-family: calibri;
-    color:dimgray;
+    color:whitesmoke;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
+    background-color:rgb(20, 20, 65);
 }
 
 #logo2 {
@@ -116,10 +120,10 @@ button:hover {
     width: 400px;
     height: 130px;
     text-align: center;
-    background-color:lightgray;
+    background-color: rgb(20, 20, 65);
     border: 2px solid black;
     border-radius: 30px;
-    color: black;
+    color: whitesmoke;
     font-weight: 700;
 }
 
